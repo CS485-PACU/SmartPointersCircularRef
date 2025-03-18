@@ -1,3 +1,11 @@
+//***************************************************************************
+// File name:   Container.h
+// Author:      chadd williams
+// Date:        3/18/2025
+// Class:       CS 485
+// Assignment:  Smart Pointer Example
+// Purpose:     Demonstrate circular references
+//***************************************************************************
 
 #pragma once	
 #include <iostream>
@@ -6,7 +14,6 @@
 
 
 class Item;
-
 
 class Container {
 
@@ -26,6 +33,5 @@ class Container {
 
 	private:
 		std::vector<std::shared_ptr<Item>> mcItems;
-
 
 };

@@ -1,3 +1,13 @@
+//***************************************************************************
+// File name:   Item.h
+// Author:      chadd williams
+// Date:        3/18/2025
+// Class:       CS 485
+// Assignment:  Smart Pointer Example
+// Purpose:     Demonstrate circular references
+//***************************************************************************
+
+
 #pragma once
 #include <iostream>
 #include <vector>

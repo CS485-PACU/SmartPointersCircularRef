@@ -1,10 +1,10 @@
 //***************************************************************************
 // File name:   main.cpp
-// Author:      
-// Date:        
-// Class:       
-// Assignment:  
-// Purpose:     
+// Author:      chadd williams
+// Date:        3/18/2025
+// Class:       CS 485
+// Assignment:  Smart Pointer Example
+// Purpose:     Demonstrate circular references
 //***************************************************************************
 
 #include <iostream>
