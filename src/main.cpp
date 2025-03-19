@@ -32,5 +32,9 @@ int main()
 		pcContainer->addItem(std::make_shared<Item> (pcContainer));
 	}
 
+	std::cerr << " call clear\n";
+	//pcContainer->clear(); // UNCOMMENT TO FIX
+	std::cerr << " called clear\n";
+
 	return EXIT_SUCCESS;
 }

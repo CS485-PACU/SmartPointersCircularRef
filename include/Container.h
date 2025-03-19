@@ -31,6 +31,10 @@ class Container {
 			return mcItems.at(index);
 		}
 
+		void clear() {
+			mcItems.clear();
+		}
+		
 	private:
 		std::vector<std::shared_ptr<Item>> mcItems;
 
